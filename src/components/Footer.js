@@ -1,4 +1,3 @@
-// import { Link } from 'react-router-dom';
 import FB from '../Img/FB.png'
 import Ins from '../Img/intagram.png'
 import CR from '../Img/copyright.png'
