@@ -36,9 +36,6 @@ export const DataS = styled.ul`
 export const DistS = styled.img`
     width: 60vh; 
     height: 60vh;
-    /* position: fixed;
-    left: -2vh;
-    top: -5vh; */
 `;
 // Footer
 export const FooterS = styled.div`
