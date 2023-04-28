@@ -60,5 +60,10 @@ export const CrS = styled.img`
     width: 40px;
     position: fixed;
     right: 1vw;
-    bottom: 0vh;
+    bottom: 3vh;
+`;
+export const AuthS = styled.h6`
+    position: fixed;
+    right: 1vw;
+    bottom: -3vh;
 `;

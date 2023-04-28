@@ -1,13 +1,13 @@
 // import data from '../data/db.json 
 import data from '../data/db.json';
-import { DataS, DistS } from '../style';
+import { BodyS, DataS, DistS } from '../style';
 
 
 
 export default function Toures() {
 
     return (
-      
+      <BodyS>
        <DataS>
       {data.map(destination => (
         <li key={destination.id}>
@@ -16,5 +16,6 @@ export default function Toures() {
         </li>
       ))}
     </DataS>
+    </BodyS>
         )
   }
