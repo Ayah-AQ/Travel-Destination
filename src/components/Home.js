@@ -8,7 +8,7 @@ export default function Home() {
     return (
       <div>
         <Header/>
-       <BodyS><Toures/></BodyS> 
+        <Toures/> 
         <Footer/>
       </div>
     )
