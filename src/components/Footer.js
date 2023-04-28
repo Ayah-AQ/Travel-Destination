@@ -1,7 +1,7 @@
 import FB from '../Img/FB.png'
 import Ins from '../Img/intagram.png'
 import CR from '../Img/copyright.png'
-import { CrS, FbS, FooterS, InS } from '../style'
+import { AuthS, CrS, FbS, FooterS, InS } from '../style'
 
 export default function Footer() {
     return (
@@ -12,6 +12,7 @@ export default function Footer() {
       <a href='https://www.instagram.com/'>
           <InS src={Ins} alt='instagram'></InS>
         </a>
+        <AuthS> Ayah AQ </AuthS>
         <CrS src={CR} alt="copyright"></CrS>
         </FooterS>
     )
