@@ -1,14 +1,14 @@
 import Header from "./Header"
-import Toures from "./Toures"
+import Toures from "./Tour/Toures"
 import Footer from "./Footer"
-import { BodyS } from "../style"
 
 
-export default function Home() {
+export default function Home(props) {
+  const data=props.data;
     return (
       <div>
         <Header/>
-        <Toures/> 
+        <Toures data={data}/> 
         <Footer/>
       </div>
     )
