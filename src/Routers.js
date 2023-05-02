@@ -6,8 +6,10 @@ const Routers = () => {
 
     return (
       <Routes>
+
     <Route path='/' element={<Home data={data} />}></Route>
     <Route path= '/city/:id' element={<TourDetails/>}></Route>
+    
     </Routes>
     );
   };
